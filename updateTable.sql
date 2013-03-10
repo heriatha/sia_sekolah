@@ -1,0 +1,1 @@
+ALTER TABLE  `ekstrakurikuler` CHANGE  `id`  `id` INT( 10 ) NOT NULL AUTO_INCREMENT;

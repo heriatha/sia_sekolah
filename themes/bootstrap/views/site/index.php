@@ -1,0 +1,1 @@
+<div region="center" title="Main Title">Selamat datang di sistem informasi akademik</div>
