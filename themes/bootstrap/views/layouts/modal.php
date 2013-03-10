@@ -22,4 +22,5 @@
                 unset(Yii::app()->session['failed']);
             }
         ?>
+            datefmysql();
 </script>

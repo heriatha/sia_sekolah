@@ -5854,3 +5854,474 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/_fendi/_latihan/sia_sekolah_v01/index.php/login/img/favicon.ico
 ---
+2013/03/10 01:25:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/fullca...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/fullcalendar.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolah_git/index.php/login/login
+---
+2013/03/10 01:25:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/jquery...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/jquery.dataTables.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolah_git/index.php/login/login
+---
+2013/03/10 01:25:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('img')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('img')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/img/favic...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/img/favicon.ico
+---
+2013/03/10 01:25:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/fullca...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/fullcalendar.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolah_git/index.php/login/login
+---
+2013/03/10 01:25:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/jquery...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/jquery.dataTables.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolah_git/index.php/login/login
+---
+2013/03/10 01:25:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('img')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('img')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/img/favic...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/img/favicon.ico
+---
+2013/03/10 01:25:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/fullca...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/fullcalendar.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolah_git/index.php/login/login
+---
+2013/03/10 01:25:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/jquery...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/jquery.dataTables.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolah_git/index.php/login/login
+---
+2013/03/10 01:25:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('img')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('img')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/img/favic...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/img/favicon.ico
+---
+2013/03/10 01:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/fullca...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/fullcalendar.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolah_git/index.php/login/login
+---
+2013/03/10 01:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/jquery...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/jquery.dataTables.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolah_git/index.php/login/login
+---
+2013/03/10 01:25:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('img')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('img')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/img/favic...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/img/favicon.ico
+---
+2013/03/10 01:25:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/fullca...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/fullcalendar.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolah_git/index.php/login/login
+---
+2013/03/10 01:25:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/jquery...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/jquery.dataTables.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolah_git/index.php/login/login
+---
+2013/03/10 01:25:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('img')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('img')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/img/favic...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/img/favicon.ico
+---
+2013/03/10 01:25:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/jquery...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/jquery.dataTables.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolah_git/index.php/login/login
+---
+2013/03/10 01:25:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/fullca...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/fullcalendar.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolah_git/index.php/login/login
+---
+2013/03/10 01:25:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('img')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('img')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/img/favic...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/img/favicon.ico
+---
+2013/03/10 01:26:06 [error] [php] copy(D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\assets\c566f17c\js\bootstrap.js) [<a href='function.copy'>function.copy</a>]: failed to open stream: Invalid argument (D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\utils\CFileHelper.php:131)
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\utils\CFileHelper.php(63): copyDirectoryRecursive()
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CAssetManager.php(251): copyDirectory()
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\protected\extensions\bootstrap\components\Bootstrap.php(328): CAssetManager->publish()
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\protected\extensions\bootstrap\components\Bootstrap.php(103): Bootstrap->getAssetsUrl()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\protected\extensions\bootstrap\components\Bootstrap.php(84): Bootstrap->registerCoreCss()
+#5 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CModule.php(387): Bootstrap->init()
+#6 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CModule.php(523): CWebApplication->getComponent()
+#7 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(152): CWebApplication->preloadComponents()
+#8 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\YiiBase.php(125): CWebApplication->__construct()
+#9 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\YiiBase.php(98): createApplication()
+#10 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): createWebApplication()
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/fullcalendar.min.js
+in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\protected\extensions\bootstrap\components\Bootstrap.php (328)
+in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\protected\extensions\bootstrap\components\Bootstrap.php (84)
+2013/03/10 01:26:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/jquery...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/jquery.dataTables.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolah_git/index.php/login/login
+---
+2013/03/10 01:26:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('img')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('img')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/img/favic...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/img/favicon.ico
+---
+2013/03/10 01:26:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/fullca...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/fullcalendar.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolah_git/index.php/login/login
+---
+2013/03/10 01:26:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/jquery...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/jquery.dataTables.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolah_git/index.php/login/login
+---
+2013/03/10 01:26:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('img')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('img')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/img/favic...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/img/favicon.ico
+---
+2013/03/10 01:26:15 [error] [php] copy(D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\assets\c566f17c\js\bootstrap.js) [<a href='function.copy'>function.copy</a>]: failed to open stream: Invalid argument (D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\utils\CFileHelper.php:131)
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\utils\CFileHelper.php(63): copyDirectoryRecursive()
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CAssetManager.php(251): copyDirectory()
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\protected\extensions\bootstrap\components\Bootstrap.php(328): CAssetManager->publish()
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\protected\extensions\bootstrap\components\Bootstrap.php(103): Bootstrap->getAssetsUrl()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\protected\extensions\bootstrap\components\Bootstrap.php(84): Bootstrap->registerCoreCss()
+#5 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CModule.php(387): Bootstrap->init()
+#6 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CModule.php(523): CWebApplication->getComponent()
+#7 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(152): CWebApplication->preloadComponents()
+#8 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\YiiBase.php(125): CWebApplication->__construct()
+#9 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\YiiBase.php(98): createApplication()
+#10 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): createWebApplication()
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/fullcalendar.min.js
+in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\protected\extensions\bootstrap\components\Bootstrap.php (328)
+in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\protected\extensions\bootstrap\components\Bootstrap.php (84)
+2013/03/10 01:26:15 [error] [php] copy(D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\assets\c566f17c\js\bootstrap.js) [<a href='function.copy'>function.copy</a>]: failed to open stream: Invalid argument (D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\utils\CFileHelper.php:131)
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\utils\CFileHelper.php(63): copyDirectoryRecursive()
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CAssetManager.php(251): copyDirectory()
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\protected\extensions\bootstrap\components\Bootstrap.php(328): CAssetManager->publish()
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\protected\extensions\bootstrap\components\Bootstrap.php(103): Bootstrap->getAssetsUrl()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\protected\extensions\bootstrap\components\Bootstrap.php(84): Bootstrap->registerCoreCss()
+#5 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CModule.php(387): Bootstrap->init()
+#6 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CModule.php(523): CWebApplication->getComponent()
+#7 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(152): CWebApplication->preloadComponents()
+#8 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\YiiBase.php(125): CWebApplication->__construct()
+#9 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\YiiBase.php(98): createApplication()
+#10 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): createWebApplication()
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/jquery.dataTables.min.js
+in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\protected\extensions\bootstrap\components\Bootstrap.php (328)
+in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\protected\extensions\bootstrap\components\Bootstrap.php (84)
+2013/03/10 01:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('img')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('img')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/img/favic...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/img/favicon.ico
+---
+2013/03/10 01:26:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/jquery...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/jquery.dataTables.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolah_git/index.php/login/login
+---
+2013/03/10 01:26:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/fullca...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/js/fullcalendar.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolah_git/index.php/login/login
+---
+2013/03/10 01:26:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CController.php(270): CController->missingAction('img')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(282): CController->run('img')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\web\CWebApplication.php(141): CWebApplication->runController('login/img/favic...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolah_git\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolah_git/index.php/login/img/favicon.ico
+---
+2013/03/10 01:34:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/jquery...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolahV01/index.php/login/js/jquery.dataTables.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolahV01/index.php/login/login
+---
+2013/03/10 01:34:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/fullca...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolahV01/index.php/login/js/fullcalendar.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolahV01/index.php/login/login
+---
+2013/03/10 01:34:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php(270): CController->missingAction('img')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(282): CController->run('img')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(141): CWebApplication->runController('login/img/favic...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolahV01/index.php/login/img/favicon.ico
+---
+2013/03/10 02:11:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php(270): CController->missingAction('admin')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(141): CWebApplication->runController('rapor/admin')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolahV01/index.php/rapor/admin?KelasAktif%5Bid_tahun_ajaran%5D=7
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolahV01/index.php/guru/admin
+---
+2013/03/10 02:11:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php(270): CController->missingAction('admin')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(141): CWebApplication->runController('rapor/admin')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolahV01/index.php/rapor/admin?KelasAktif%5Bid_tahun_ajaran%5D=7
+---
+2013/03/10 02:11:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php(270): CController->missingAction('admin')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(141): CWebApplication->runController('rapor/admin')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolahV01/index.php/rapor/admin?KelasAktif%5Bid_tahun_ajaran%5D=7
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolahV01/index.php/rapor/admin?KelasAktif%5Bid_tahun_ajaran%5D=7
+---
+2013/03/10 02:11:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php(270): CController->missingAction('admin')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(141): CWebApplication->runController('rapor/admin')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolahV01/index.php/rapor/admin?KelasAktif%5Bid_tahun_ajaran%5D=7
+---
+2013/03/10 02:11:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php(270): CController->missingAction('admin')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(141): CWebApplication->runController('rapor/admin')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolahV01/index.php/rapor/admin?KelasAktif%5Bid_tahun_ajaran%5D=7
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolahV01/index.php/rapor/
+---
+2013/03/10 02:11:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php(270): CController->missingAction('admin')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(141): CWebApplication->runController('rapor/admin')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolahV01/index.php/rapor/admin?KelasAktif%5Bid_tahun_ajaran%5D=7
+---
+2013/03/10 02:19:40 [error] [php] copy(D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\assets\4fb0fde2\js\bootstrap.js) [<a href='function.copy'>function.copy</a>]: failed to open stream: Invalid argument (D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\utils\CFileHelper.php:131)
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\utils\CFileHelper.php(63): copyDirectoryRecursive()
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CAssetManager.php(251): copyDirectory()
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\protected\extensions\bootstrap\components\Bootstrap.php(328): CAssetManager->publish()
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\protected\extensions\bootstrap\components\Bootstrap.php(103): Bootstrap->getAssetsUrl()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\protected\extensions\bootstrap\components\Bootstrap.php(84): Bootstrap->registerCoreCss()
+#5 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\base\CModule.php(387): Bootstrap->init()
+#6 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\base\CModule.php(523): CWebApplication->getComponent()
+#7 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\base\CApplication.php(152): CWebApplication->preloadComponents()
+#8 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\YiiBase.php(125): CWebApplication->__construct()
+#9 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\YiiBase.php(98): createApplication()
+#10 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\index.php(13): createWebApplication()
+REQUEST_URI=/_fendi/_latihan/sia_sekolahV01/index.php/login/js/fullcalendar.min.js
+in D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\protected\extensions\bootstrap\components\Bootstrap.php (328)
+in D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\protected\extensions\bootstrap\components\Bootstrap.php (103)
+in D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\protected\extensions\bootstrap\components\Bootstrap.php (84)
+2013/03/10 02:19:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/jquery...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolahV01/index.php/login/js/jquery.dataTables.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolahV01/index.php/login/login
+---
+2013/03/10 02:19:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php(270): CController->missingAction('img')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(282): CController->run('img')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(141): CWebApplication->runController('login/img/favic...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolahV01/index.php/login/img/favicon.ico
+---

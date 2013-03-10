@@ -66,8 +66,8 @@ class NilaiSiswa extends MyCActiveRecord
 		return array(
 			'deskripsi_kemajuan_belajar' => 'Deskripsi Kemajuan Belajar',
 			'nilai' => 'Nilai',
-			'id_rapor' => 'Id Rapor',
-			'id_mapel_kelas_aktif' => 'Id Mapel Kelas Aktif',
+			'id_rapor' => 'Rapor',
+			'id_mapel_kelas_aktif' => 'Mapel Kelas Aktif',
 		);
 	}
 

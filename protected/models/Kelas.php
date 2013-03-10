@@ -77,10 +77,10 @@ class Kelas extends MyCActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'id_jurusan' => 'Id Jurusan',
-			'id_kurikulum' => 'Id Kurikulum',
-			'id_semester' => 'Id Semester',
-			'id_tingkat_kelas' => 'Id Tingkat Kelas',
+			'id_jurusan' => 'Jurusan',
+			'id_kurikulum' => 'Kurikulum',
+			'id_semester' => 'Semester',
+			'id_tingkat_kelas' => 'Tingkat Kelas',
 		);
 	}
 

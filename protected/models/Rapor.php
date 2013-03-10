@@ -88,18 +88,18 @@ class Rapor extends MyCActiveRecord
 		return array(
 			'id' => 'ID',
 			'catatan_orang_tua' => 'Catatan Orang Tua',
-			'id_predikat_kelakuan' => 'Id Predikat Kelakuan',
-			'id_predikat_kerajinan' => 'Id Predikat Kerajinan',
-			'id_predikat_kerapian' => 'Id Predikat Kerapian',
+			'id_predikat_kelakuan' => 'Predikat Kelakuan',
+			'id_predikat_kerajinan' => 'Predikat Kerajinan',
+			'id_predikat_kerapian' => 'Predikat Kerapian',
 			'pernyataan' => 'Pernyataan',
 			'rangking' => 'Rangking',
 			'status' => 'Status',
 			'alpha' => 'Alpha',
 			'ijin' => 'Ijin',
 			'sakit' => 'Sakit',
-			'id_kelas_aktif' => 'Id Kelas Aktif',
-			'id_siswa' => 'Id Siswa',
-			'id_tahun_ajaran' => 'Id Tahun Ajaran',
+			'id_kelas_aktif' => 'Kelas Aktif',
+			'id_siswa' => 'Siswa',
+			'id_tahun_ajaran' => 'Tahun Ajaran',
 		);
 	}
 

@@ -75,9 +75,9 @@ class MapelKelasAktif extends MyCActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'id_guru_pengampu' => 'Id Guru Pengampu',
-			'id_kelas_aktif' => 'Id Kelas Aktif',
-			'id_mapel' => 'Id Mapel',
+			'id_guru_pengampu' => 'Guru Pengampu',
+			'id_kelas_aktif' => 'Kelas Aktif',
+			'id_mapel' => 'Mapel',
 			'kkm' => 'Kkm',
 		);
 	}

@@ -89,7 +89,7 @@ class Guru extends MyCActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'id_user' => 'Id User',
+			'id_user' => 'User',
 			'nip' => 'Nip',
 			'nama' => 'Nama',
 			'alamat' => 'Alamat',

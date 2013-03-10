@@ -13,7 +13,7 @@
 		http://twitter.com/halalit_usman
 	-->
 	<meta charset="utf-8">
-	<title>Free HTML5 Bootstrap Admin Template</title>
+	<title>Login - Sistem Informasi Kepolisian Brebes</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
 	<meta name="author" content="Muhammad Usman">
@@ -61,7 +61,7 @@
 		
 			<div class="row-fluid">
 				<div class="span12 center login-header">
-					<h2>Selamat Datang Di Sistem Informasi Kepolisian</h2>
+                                    <h2 style="vertical-align: middle"><img src='<?php echo Yii::app()->theme->baseUrl; ?>/asset/img/polri-icon.png' width="70px"> Sistem Informasi Kepolisian Polres Brebes</h2>
 				</div><!--/span-->
 			</div><!--/row-->
 			

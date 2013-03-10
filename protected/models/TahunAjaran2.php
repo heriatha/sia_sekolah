@@ -71,7 +71,7 @@ class TahunAjaran2 extends MyCActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'id_semester' => 'Id Semester',
+			'id_semester' => 'Semester',
 			'tahun_ajaran' => 'Tahun Ajaran',
 			'is_aktif' => 'Is Aktif',
 		);

@@ -45,7 +45,7 @@
 	<script src="<?php echo Yii::app()->theme->baseUrl; ?>/asset/js/bootstrap-button.js"></script>
 	<script src="<?php echo Yii::app()->theme->baseUrl; ?>/asset/js/bootstrap-collapse.js"></script>
 	<script src="<?php echo Yii::app()->theme->baseUrl; ?>/asset/js/bootstrap-carousel.js"></script>
-	<script src="<?php echo Yii::app()->theme->baseUrl; ?>/asset/js/bootstrap-datepicker.js"></script>
+	<!--<script src="<?php echo Yii::app()->theme->baseUrl; ?>/asset/js/bootstrap-datepicker.js"></script>-->
 	<script src="<?php echo Yii::app()->theme->baseUrl; ?>/asset/js/bootstrap-tour.js"></script>
         <script src="<?php echo Yii::app()->theme->baseUrl; ?>/asset/js/bootstrap-typeahead.js"></script>
 	<script src="<?php echo Yii::app()->theme->baseUrl; ?>/asset/js/jquery.cookie.js"></script>
@@ -74,6 +74,7 @@
                 $('.tanggal').datepicker();
                 $('a[data-original-title=View]').removeAttr('target');
             })
+            datefmysql();
         <?php
             if(Yii::app()->session['success']){
                 echo "noty({
@@ -91,6 +92,7 @@
                 unset(Yii::app()->session['failed']);
             }
         ?>
+            
         </script>
 </body>
 </html>

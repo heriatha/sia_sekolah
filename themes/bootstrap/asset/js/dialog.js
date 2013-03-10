@@ -275,4 +275,45 @@ function popitup(url,height,width) {
 
 $(document).ready(function(){
     $('a[href=""]').removeAttr('href');
+    
+    $('body').delegate('input[type=submit], button','click',function(event){
+       event.preventDefault(); 
+       var forms=$(this).parents('form').find('.tanggal');
+       console.log(forms);
+       var i=0;
+
+       for(i=0;i<forms.length;i++){
+           var value=$(forms[i]).attr('value');
+           if(value!=''){
+                var day=value.substring(0, 2)*1;
+                var month=value.substring(3, 5)*1;
+                var year=value.substring(6, 10)*1;
+                $(forms[i]).attr('value',year+'-'+l(month)+'-'+l(day));       
+//                alert($(forms[i]).attr('value')+' '+i);
+           }
+       }
+       $(this).parents('form').submit();
+    });
 });
+function l(num) {
+    num = String(num);
+    return num.length < 2 ? "0"+num : num;
+}
+function datefmysql(){
+    var forms=$('.tanggal');
+    for(var i=0;i<forms.length;i++){
+           var value=$(forms[i]).attr('value');
+           if(value!=''){
+                var day=value.substring(8, 10)*1;
+                var month=value.substring(5, 7)*1;
+                var year=value.substring(0, 4)*1;
+                if(month.size==1){
+                    month='0'+month;
+                }
+                $(forms[i]).attr('value',l(day)+'/'+l(month)+'/'+(year));       
+           }
+   }
+    
+    
+}
+

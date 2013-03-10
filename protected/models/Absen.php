@@ -68,7 +68,7 @@ class Absen extends MyCActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'id_tahun_ajaran' => 'Id Tahun Ajaran',
+			'id_tahun_ajaran' => 'Tahun Ajaran',
 			'tanggal' => 'Tanggal',
 		);
 	}

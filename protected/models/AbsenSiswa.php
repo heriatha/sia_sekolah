@@ -62,8 +62,8 @@ class AbsenSiswa extends MyCActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_absen' => 'Id Absen',
-			'id_rapor' => 'Id Rapor',
+			'id_absen' => 'Absen',
+			'id_rapor' => 'Rapor',
 			'absen' => 'Absen',
 		);
 	}

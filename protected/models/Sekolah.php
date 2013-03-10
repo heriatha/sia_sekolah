@@ -81,7 +81,7 @@ class Sekolah extends MyCActiveRecord
 			'nama' => 'Nama',
 			'nss' => 'Nss',
 			'provinsi' => 'Provinsi',
-			'id_guru_kepsek' => 'Id Guru Kepsek',
+			'id_guru_kepsek' => 'Guru Kepsek',
 		);
 	}
 

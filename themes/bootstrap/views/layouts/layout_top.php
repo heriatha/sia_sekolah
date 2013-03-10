@@ -18,7 +18,7 @@
 	  }
 	</style>
 	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/asset/css/bootstrap-responsive.css" rel="stylesheet">
-	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/asset/css/bootstrap-datepicker.css" rel="stylesheet">
+	<!--<link href="<?php echo Yii::app()->theme->baseUrl; ?>/asset/css/bootstrap-datepicker.css" rel="stylesheet">-->
 	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/asset/css/charisma-app.css" rel="stylesheet">
 	<link href="<?php echo Yii::app()->theme->baseUrl; ?>/asset/css/jquery-ui-1.8.21.custom.css" rel="stylesheet">
 	<link href='<?php echo Yii::app()->theme->baseUrl; ?>/asset/css/fullcalendar.css' rel='stylesheet'>
@@ -62,42 +62,49 @@
 				</a>
 				<!--<a class="brand" href="<?php echo Yii::app()->theme->baseUrl; ?>/asset/index.html"> <span>Sistem Informasi Akademik Tahun Ajaran </span></a>-->
 				
-				<!-- theme selector starts -->
-				<div class="btn-group pull-right theme-container" >
-					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-						<i class="icon-tint"></i><span class="hidden-phone"> Change Theme / Skin</span>
-						<span class="caret"></span>
-					</a>
-					<ul class="dropdown-menu" id="themes">
-						<li><a data-value="classic" href="#"><i class="icon-blank"></i> Classic</a></li>
-						<li><a data-value="cerulean" href="#"><i class="icon-blank"></i> Cerulean</a></li>
-						<li><a data-value="cyborg" href="#"><i class="icon-blank"></i> Cyborg</a></li>
-						<li><a data-value="redy" href="#"><i class="icon-blank"></i> Redy</a></li>
-						<li><a data-value="journal" href="#"><i class="icon-blank"></i> Journal</a></li>
-						<li><a data-value="simplex" href="#"><i class="icon-blank"></i> Simplex</a></li>
-						<li><a data-value="slate" href="#"><i class="icon-blank"></i> Slate</a></li>
-						<li><a data-value="spacelab" href="#"><i class="icon-blank"></i> Spacelab</a></li>
-						<li><a data-value="united" href="#"><i class="icon-blank"></i> United</a></li>
-					</ul>
-				</div>
-				<!-- theme selector ends -->
-				
 				<!-- user dropdown starts -->
+                                
 				<div class="btn-group pull-right" >
 					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
                                             <i class="icon-user"></i><span class="hidden-phone"> <?php echo Yii::app()->user->getUsername()?></span>
 						<span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
-						<li><a href="#">Profile</a></li>
+                                            <li><a href="<?php echo Yii::app()->createUrl('user/update',array('id'=>Yii::app()->user->getUserId(),'returnUrl'=>  Yii::app()->request->url))?>">Profile</a></li>
 						<li class="divider"></li>
                                                 <li><a href="<?php echo Yii::app()->createUrl('site/logout'); ?>">Logout</a></li>
 					</ul>
 				</div>
+<!--                                <div class="btn-group pull-right">
+                                        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#" style="display: inline">
+                                            <i class="icon-cog"></i><span class="hidden-phone">Setting</span>
+						<span class="caret"></span>
+					</a>
+                                        <ul class="dropdown-menu">
+                                                <?php 
+                                                foreach($this->widget('ext.MainMenu')->getMenu() as $menu){
+                                                    echo '<div title="'.$menu['module'].'" selected="true" style="overflow:auto;" class="module-menu">';
+                                                    echo '<ul>';
+                                                    foreach($menu['menu'] as $m){
+                                                        $param=array();
+                                                        if(isset($m['param'])){
+                                                            $param=$m['param'];
+                                                        }
+                                                        ?>
+                                                        <li><a href="<?php echo Yii::app()->createUrl($m['url'],$param) ?>"><span class="hidden-tablet"><?php echo $m['title']?></span></a></li>    
+                                                        <?php
+                                                    }
+                                                    echo '</ul>';
+                                                    echo '</div>';
+                                                }
+                                                ?>
+					</ul>
+                                </div>-->
+                                <a href="<?php echo Yii::app()->baseUrl?>" class="btn pull-right">Home</a>
 				<!-- user dropdown ends -->
 				
 				<div class="top-nav nav-collapse">
-                                    <span style="font-size: large">Sistem Informasi Kepolisian</span>
+                                    <span style="font-size: large;vertical-align: bottom"><img src='<?php echo Yii::app()->theme->baseUrl; ?>/asset/img/polri-icon.png' width="30px"> Sistem Informasi Kepolisian Polres Brebes</span>
 <!--					<ul class="nav">
 						<li><a href="#">Visit Site</a></li>
 						<li>
@@ -121,8 +128,6 @@
 						<li class="nav-header hidden-tablet">Main</li>
                                                 <?php 
                                                 $userType=  Yii::app()->user->getUserType();
-//                                                echo ($userType);
-//                                                exit;
                                                 foreach($this->widget('ext.MainMenu')->getMenu() as $menu){
 //                                                    echo '<div title="'.$menu['module'].'" selected="true" style="overflow:auto;" class="module-menu">';
 //                                                    echo '<ul>';
@@ -140,9 +145,9 @@
                                                 }
                                                 ?>
 					</ul>
-					<!--<label id="for-is-ajax" class="hidden-tablet" for="is-ajax"><input id="is-ajax" type="checkbox"> Ajax on menu</label>-->
-				</div><!--/.well -->
-			</div><!--/span-->
+					<label id="for-is-ajax" class="hidden-tablet" for="is-ajax"><input id="is-ajax" type="checkbox"> Ajax on menu</label>
+				</div>
+			</div>
 			<!-- left menu ends -->
 			
 			<noscript>
@@ -153,8 +158,13 @@
 			</noscript>
 			
 			<div id="content" class="span10">
-			<!-- content starts -->
-			
+<!--			 content starts 
+                        <div class="sortable row-fluid ui-sortable" style="text-align: center;vertical-align: middle;">
+                            <a data-rel="tooltip" class="well span2 top-block" href="<?php echo Yii::app()->createUrl('polisi') ?>">
+                                <span class="icon32 icon-red icon-user"></span>
+                                <div>Polisi</div>
+                            </a>
+                        </div>-->
 
 			<div>
 				<?php $this->widget('bootstrap.widgets.TbBreadcrumbs', array(
