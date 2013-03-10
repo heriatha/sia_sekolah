@@ -207,8 +207,6 @@ class Siswa extends MyCActiveRecord
 		));
 	}
         function save($runValidation = true, $attributes = null) {
-            $this->tanggal_lahir=$this->date2mysql($this->tanggal_lahir);
-            $this->tanggal_diterima=$this->date2mysql($this->tanggal_diterima);
             return parent::save($runValidation, $attributes);
         }
         function findByPk($pk, $condition = '', $params = array()) {

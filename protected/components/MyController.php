@@ -81,11 +81,15 @@ class MyController extends Controller {
             return $new;
         }
     }
-    function date2mysql($tgl){
+    function date2mysql($tglParam){
         $new = null;
-        $tgl = explode("/", $tgl);
+        $tgl = explode("/", $tglParam);
         if (empty($tgl[2]))
             return "";
+//        echo strlen($tgl[2]);
+        if(strlen($tgl[0])==4 && strlen($tgl[1])==2){
+            return $tglParam;
+        }
         $new = "$tgl[2]-$tgl[1]-$tgl[0]";
         return $new;
     }

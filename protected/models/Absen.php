@@ -154,4 +154,15 @@ class Absen extends MyCActiveRecord
                 return false;
             }
         }
+        function getRekapitulasiAbsenSiswaByRapor($id_rapor){
+            $absenQuery=  Yii::app()->db->createCommand()
+                    ->select(array(
+                        "sum(case absen_siswa.absen when 'masuk' then 1 else 0 end) as masuk",
+                        "sum(case absen_siswa.absen when 'ijin' then 1 else 0 end) as ijin",
+                        "sum(case absen_siswa.absen when 'sakit' then 1 else 0 end) as sakit",
+                        "sum(case absen_siswa.absen when 'alpha' then 1 else 0 end) as alpha",
+                    ))
+                    ->from('absen_siswa');
+            $absenQuery->where("absen_siswa.id_rapor='$id_rapor'");
+        }
 }

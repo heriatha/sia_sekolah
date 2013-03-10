@@ -18,10 +18,11 @@ class RaporController extends MyController
             
         }
         public function actionEditRapor($id_siswa,$id_kelas_aktif){
-            $data['rapor']=  Rapor::model()->getRaporSiswa($id_siswa,$id_kelas_aktif);
+            $data['rapor']              =  Rapor::model()->getRaporSiswa($id_siswa,$id_kelas_aktif);
             $data['ekstrakurikulerList']=  Ekstrakurikuler::model()->findAll();
-            $data['siswa']=  Siswa::model()->findByPk($id_siswa);
-            $data['kelas']=  KelasAktif::model()->getKelasAktif($id_kelas_aktif);
+            $data['siswa']              =  Siswa::model()->findByPk($id_siswa);
+            $data['kelas']              =  KelasAktif::model()->getKelasAktif($id_kelas_aktif);
+            $data['absenSiswa']         =  Absen::model()->getRekapitulasiAbsenSiswa($id_absen, $id_rapor,$data['rapor']['id_tahun_ajaran']);
             $this->render("editRapor",$data);
         }
 }

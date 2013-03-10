@@ -6325,3 +6325,35 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/_fendi/_latihan/sia_sekolahV01/index.php/login/img/favicon.ico
 ---
+2013/03/10 02:38:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/jquery...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolahV01/index.php/login/js/jquery.dataTables.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolahV01/index.php/login/login
+---
+2013/03/10 02:38:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php(270): CController->missingAction('js')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(282): CController->run('js')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(141): CWebApplication->runController('login/js/fullca...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolahV01/index.php/login/js/fullcalendar.min.js
+HTTP_REFERER=http://127.0.0.1/_fendi/_latihan/sia_sekolahV01/index.php/login/login
+---
+2013/03/10 02:38:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CController.php(270): CController->missingAction('img')
+#1 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(282): CController->run('img')
+#2 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\web\CWebApplication.php(141): CWebApplication->runController('login/img/favic...')
+#3 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\_fendi\_latihan\sia_sekolahV01\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/_fendi/_latihan/sia_sekolahV01/index.php/login/img/favicon.ico
+---

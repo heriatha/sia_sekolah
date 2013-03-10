@@ -16,7 +16,7 @@ if(date('N')==7){
         <td>Walikelas</td><td><?php echo Guru::model()->findByPk($kelasAktif['id_guru_walikelas'])->nama?></td>
     </tr>
     <tr>
-        <td>Tanggal</td><td><?php echo $tanggal?><input type="hidden" name="tanggal" class="tanggal span2" value="<?php echo $tanggal?>"></td>
+        <td>Tanggal</td><td><?php echo $tanggal?><input type="hidden" name="tanggal" class="span2" value="<?php echo $tanggal?>"></td>
     </tr>
 </table>
     
