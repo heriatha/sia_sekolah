@@ -188,4 +188,31 @@ class Rapor extends MyCActiveRecord
                     ->where("kelas_aktif.id='$id_kelas_aktif'")
                     ->queryAll();
         }
+        function saveRaporSiswa($id_rapor,$raporData){
+            $conn   = Yii::app()->db;
+            $trans  = $conn->beginTransaction();
+            try{
+                foreach($raporData['nilai'] as $nilai){
+                    $conn->createCommand()
+                            ->update('nilai_siswa', $nilai, "id_rapor='$nilai[id_rapor]' and id_mapel_kelas_aktif='$nilai[id_mapel_kelas_aktif]'");
+                }
+                $conn->createCommand()
+                        ->delete('nilai_ekstrakurikuler', "id_rapor='$id_rapor'");
+                foreach($raporData['ekstrakurikuler'] as $ekstrakurikuler){
+                    if($ekstrakurikuler['id_predikat']==null && $ekstrakurikuler['id_ekstrakurikuler']==null){
+                        continue;
+                    }
+                    $ekstrakurikuler['id_rapor']=$id_rapor;
+                    $conn->createCommand()
+                            ->insert('nilai_ekstrakurikuler', $ekstrakurikuler);
+                }
+                $conn->createCommand()
+                        ->update('rapor', $raporData['rapor'],"id='$id_rapor'");
+                $trans->commit();
+                return true;
+            }catch(Exception $e){
+                $trans->rollback();
+                return false;
+            }
+        }
 }

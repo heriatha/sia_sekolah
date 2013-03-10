@@ -52,7 +52,7 @@ $this->menu=array(
                 'kelas'=>array(
                             'url' => 'Yii::app()->createUrl("kelasAktif/viewByTahunAjaran", array("id_tahun_ajaran"=>$data->id))',
                             'label' => '',
-                            'options' => array('class' => 'icon-darkgray icon-folder-open', 'data-original-title' => "Kelas"),
+                            'options' => array('class' => 'icon-darkgray icon-home', 'data-original-title' => "Kelas"),
                         ),
                 'view' => array(
                     'options' => array('target' => 'ajax-modal', 'title' => 'View Tahun Ajaran')

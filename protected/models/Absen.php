@@ -164,5 +164,7 @@ class Absen extends MyCActiveRecord
                     ))
                     ->from('absen_siswa');
             $absenQuery->where("absen_siswa.id_rapor='$id_rapor'");
+//            echo $absenQuery->text;
+            return $absenQuery->queryRow();
         }
 }
