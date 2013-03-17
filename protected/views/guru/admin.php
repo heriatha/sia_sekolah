@@ -38,22 +38,28 @@ $this->menu=array(
 </div>
 </div>
 
-<?php $this->widget('MyCGridView', array(
+<?php 
+    $this->widget('MyCGridView', array(
 	'id'=>'guru-grid',
 	'dataProvider'=>$model->search(),
 	//'filter'=>$model,
 	'columns'=>array(
-            array(
-                    'header' => 'No',
-                    'value' => '$row+1',
-                    'htmlOptions'=>array('align'=>'center','style'=>'width: 5%')
-                ),
-		'id_user',
+//            array(
+//                    'header' => 'No',
+//                    'value' => '$row+1',
+//                    'htmlOptions'=>array('align'=>'center','style'=>'width: 5%')
+//                ),
+//		'id_user',
 		'nip',
 		'nama',
-		'alamat',
-		'catatan',
-		'id_jenjang_pendidikan',
+                array(
+                    'header' => 'Golongan',
+                    'value' => 'Golongan::model()->findByPk($data->id_golongan)->nama',
+                ),
+                array(
+                    'header' => 'Jenjang Pendidikan',
+                    'value' => 'JenjangPendidikan::model()->findByPk($data->id_jenjang_pendidikan)->nama',
+                ),
 		/*
 		'instansi_pendidikan_terakhir',
 		'jurusan_pendidikan_terakhir',
@@ -63,6 +69,8 @@ $this->menu=array(
 		*/
 		array(
                     'class'=>'MyCButtonColumn',
+                    'template'=>'{user} {view} {update} {delete}',
+                    'htmlOptions'=>array('width'=>'85px'),
                     'buttons'=>array(
                         'view'=>array(
                             'options'=>array('target'=>'ajax-modal','title'=>'View')
@@ -72,6 +80,11 @@ $this->menu=array(
                         ),
                         'delete'=>array(
                             'options'=>array('header'=>'Delete Data','target'=>'confirm','message'=>'Apakah anda yakin akan menghapus tahun data ini?',)
+                        ),
+                        'user'=>array(
+                            'url'=>'Yii::app()->createUrl("user/update",array("id"=>$data->id_user,"redirectUrl"=>Yii::app()->createUrl("guru/view",array("id"=>$data->id))))',
+                            'label'=>'',
+                            'options'=>array('target'=>'ajax-modal','title'=>'Edit user','class' => 'icon-darkgray icon-user',)
                         ),
                     ),
                     'header'=>'Action'

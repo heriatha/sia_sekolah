@@ -108,7 +108,7 @@ class KelasAktif extends MyCActiveRecord
 		$criteria->compare('id_tahun_ajaran',$this->id_tahun_ajaran);
 		$criteria->compare('id_guru_walikelas',$this->id_guru_walikelas);
 		$criteria->compare('id_kelas_paralel',$this->id_kelas_paralel);
-
+                $criteria->order="id_kelas, id_kelas_paralel";
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));

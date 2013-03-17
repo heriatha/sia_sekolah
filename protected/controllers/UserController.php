@@ -110,8 +110,12 @@ class UserController extends MyController
 			$model->attributes=$_POST['User'];
                         $is_success=$model->save();
                         $this->notice($is_success,'User','update');
-			if($is_success)
+			if($is_success){
+                            if($_GET['redirectUrl']){
+                                $this->redirect($_GET['redirectUrl']);
+                            }else
 				$this->redirect(array('view','id'=>$model->id));
+                        }
 		}
                 if($_GET['ajax'])
                     $this->renderModal('update',array(

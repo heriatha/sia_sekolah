@@ -84,6 +84,7 @@ class Common extends MyCActiveRecord{
             if($index==null){
                 return $bulan;
             }else{
+                $index=$index*1;
                 return $bulan[$index];
             }
         }
@@ -135,7 +136,7 @@ class Common extends MyCActiveRecord{
                 $messageContent[$indexTerakhir]= $messageBefore[count($messageBefore)-1].' '.$messageContent[$indexTerakhir];
                 
             }
-            $this->show_array($messageContent);exit;
+//            $this->show_array($messageContent);exit;
             for($i=0;$i<count($messageContent);$i++){
                 exec('gammu-smsd-inject -c smsdrc1 TEXT '.$nomorHp.' -text "'.$messageContent[$i].'"',$hasil[$i]);
 //                $this->show_array($hasil[$i]);

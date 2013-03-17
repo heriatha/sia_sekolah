@@ -2,6 +2,10 @@
 
 class MessageController extends MyController
 {
+        public function __construct($id, $module = null) {
+            $this->checkLogin=false;
+            parent::__construct($id, $module);
+        }
 	public function actionIndex($bulan=null,$tahun=null,$status="Polisi")
 	{
                 if($tahun==null){
@@ -88,12 +92,49 @@ class MessageController extends MyController
             $this->notice($is_success, '', null,'Kirim ulang pesan');
             $this->actionViewDetail($_GET['id_pesan']);
         }
+        /**
+         * format sms:
+         * absen#[NIS]
+         * absen#[NIS]#[bulan]
+         */
+        public function actionSmsRequest(){
+            $data=  Yii::app()->db->createCommand("select * from inbox where `Processed`='false'")->queryAll();
+            $tahunAjaran=  TahunAjaran::model()->getTahunAjaranAktif();
+            foreach ($data as $d){
+                $sms=  explode('#', $d['TextDecoded']);
+                if(strtolower($sms[0])=='absen'){
+                    $nis=$sms[1];
+                    $rapor=Rapor::model()->getRaporSiswaByNisTahunAjaran($nis, $tahunAjaran['id']);
+                    if($rapor['id']==null){
+                        $sms='NIS '.$nis.' siswa tidak ditemukan';
+                    }else if(count($sms)==3){
+                        //sms bulanan
+                        $bln=$sms[2];
+                        $rekap=Absen::model()->getRekapitulasiAbsenSiswaByRaporBulan($rapor['id'],$bln);
+                        $siswa=Siswa::model()->findByPk($rapor['id_siswa']);
+                        $sms="Absen Siswa $siswa[nama] bln ".Common::model()->getBulan($bln).",I:$rekap[ijin],A:$rekap[alpha],S:$rekap[sakit]";
+                    }else{
+                        //total absen
+                        $rekap=Absen::model()->getRekapitulasiAbsenSiswaByRapor($rapor['id']);
+                        $siswa=Siswa::model()->findByPk($rapor['id_siswa']);
+                        $sms="Absen Siswa $siswa[nama] TA ".$tahunAjaran['tahun_ajaran'].",I:$rekap[ijin],A:$rekap[alpha],S:$rekap[sakit]";
+                    }
+                }else{
+                    $sms="format sms tidak ditemukan";
+                }
+                echo $sms;
+                Common::model()->sendMessage($d['SenderNumber'],$sms);
+                Yii::app()->db->createCommand()
+                        ->update('inbox', array('Processed'=>'true'), "ID='$d[ID]'");
+            }
+        }
+        
         public function actionTest($nomorHp='',$text=''){
 //            if($nomorHp==null || $nomorHp==''){
 //                return null;
 //            }
             $nomorHp='085726457243';
-            $text='Slmt Fendi Tri Cahyono, Bln ini anda mendapatkan Rp. 615.600, utk uang makan PNS, dan Rp. 0 utk uang lembur sisa cuti yang bisa diguna';
+            $text='amii';
             $jumlahSms=  floor(strlen($text)/155);
             if(strlen($text)%155!=0){
                 $jumlahSms++;

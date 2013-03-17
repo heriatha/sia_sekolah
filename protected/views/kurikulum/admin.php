@@ -50,18 +50,8 @@ $this->menu=array(
                 ),
 		'tahun',
                 array(
-                    'class'=>'MyCButtonColumn',
-//                    'value'=>'$data->getJumlahMapel()',
                     'header'=>'Jumlah Matapelajaran',
-                    'htmlOptions'=>array('style'=>'text-align: right'),
-                    'template' => '{kategorimapel}',
-                    'buttons'=>array(
-                        'kategorimapel'=>array(
-                            'url' => 'Yii::app()->createUrl("kategoriMapel/viewByKurikulum", array("id_kurikulum"=>$data->id))',
-                            'label' => '$data->getJumlahMapel()',
-                            'options' => array('class' => '', 'data-original-title' => "Kategori Mapel"),
-                        ),
-                    ),
+                    'value'=>'"<a href=".Yii::app()->createUrl("kategoriMapel/viewByKurikulum", array("id_kurikulum"=>$data->id)).">".Kurikulum::model()->getJumlahMapel($data->id)."</a>"'
                 ),
                 'diskripsi',
 		array(

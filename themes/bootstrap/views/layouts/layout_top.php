@@ -38,7 +38,7 @@
 
 	<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
-	  <script src="<?php echo Yii::app()->theme->baseUrl; ?>/asset/http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
 	<!-- The fav icon -->
@@ -104,7 +104,7 @@
 				<!-- user dropdown ends -->
 				
 				<div class="top-nav nav-collapse">
-                                    <span style="font-size: large;vertical-align: bottom"><img src='<?php echo Yii::app()->theme->baseUrl; ?>/asset/img/polri-icon.png' width="30px"> Sistem Informasi Kepolisian Polres Brebes</span>
+                                    <span style="font-size: large;vertical-align: bottom"><img src='<?php echo Yii::app()->theme->baseUrl; ?>/asset/img/mts-icon.png' width="30px"> Sistem Informasi Akademik MTs Negeri Punung Pacitan</span>
 <!--					<ul class="nav">
 						<li><a href="#">Visit Site</a></li>
 						<li>

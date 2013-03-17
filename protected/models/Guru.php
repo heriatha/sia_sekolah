@@ -16,6 +16,7 @@
  * @property integer $is_pegawai_tetap
  * @property integer $tahunLulus
  * @property integer $id_agama
+ * @property integer $id_golongan
  *
  * The followings are the available model relations:
  * @property JenjangPendidikan $idJenjangPendidikan
@@ -53,15 +54,15 @@ class Guru extends MyCActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nip, id_jenjang_pendidikan, tahunLulus', 'required'),
-			array('id_user, id_jenjang_pendidikan, is_pegawai_tetap, tahunLulus, id_agama', 'numerical', 'integerOnly'=>true),
+			array('nip, id_jenjang_pendidikan, tahunLulus, id_golongan', 'required'),
+			array('id_user, id_jenjang_pendidikan, is_pegawai_tetap, tahunLulus, id_agama, id_golongan', 'numerical', 'integerOnly'=>true),
 			array('nip', 'length', 'max'=>10),
 			array('nama', 'length', 'max'=>32),
 			array('alamat, catatan', 'length', 'max'=>50),
 			array('instansi_pendidikan_terakhir, jurusan_pendidikan_terakhir', 'length', 'max'=>20),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, id_user, nip, nama, alamat, catatan, id_jenjang_pendidikan, instansi_pendidikan_terakhir, jurusan_pendidikan_terakhir, is_pegawai_tetap, tahunLulus, id_agama', 'safe', 'on'=>'search'),
+			array('id, id_user, nip, nama, alamat, catatan, id_jenjang_pendidikan, id_golongan, instansi_pendidikan_terakhir, jurusan_pendidikan_terakhir, is_pegawai_tetap, tahunLulus, id_agama', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -74,6 +75,7 @@ class Guru extends MyCActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'idJenjangPendidikan' => array(self::BELONGS_TO, 'JenjangPendidikan', 'id_jenjang_pendidikan'),
+			'idGolongan' => array(self::BELONGS_TO, 'Golongan', 'id_golongan'),
 			'idAgama' => array(self::BELONGS_TO, 'Agama', 'id_agama'),
 			'idUser' => array(self::BELONGS_TO, 'User', 'id_user'),
 			'kelasaktifs' => array(self::HAS_MANY, 'Kelasaktif', 'id_guru_walikelas'),
@@ -90,6 +92,7 @@ class Guru extends MyCActiveRecord
 		return array(
 			'id' => 'ID',
 			'id_user' => 'User',
+			'id_golongan' => 'Golongan',
 			'nip' => 'Nip',
 			'nama' => 'Nama',
 			'alamat' => 'Alamat',
@@ -126,6 +129,7 @@ class Guru extends MyCActiveRecord
 		$criteria->compare('is_pegawai_tetap',$this->is_pegawai_tetap);
 		$criteria->compare('tahunLulus',$this->tahunLulus);
 		$criteria->compare('id_agama',$this->id_agama);
+		$criteria->compare('id_golongan',$this->id_golongan);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

@@ -50,7 +50,7 @@ $this->menu=array(
             'template' => '{kelas} {aktifkan} {view} {update} {delete}',
             'buttons' => array(
                 'kelas'=>array(
-                            'url' => 'Yii::app()->createUrl("kelasAktif/viewByTahunAjaran", array("id_tahun_ajaran"=>$data->id))',
+                            'url' => 'Yii::app()->createUrl("kelasAktif/admin", array("KelasAktif[id_tahun_ajaran]"=>$data->id))',
                             'label' => '',
                             'options' => array('class' => 'icon-darkgray icon-home', 'data-original-title' => "Kelas"),
                         ),

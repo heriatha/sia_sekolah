@@ -9,9 +9,9 @@
         ?>    
                 <?php 
 // echo $form->textField($model,'id',array('class'=>'span3','placeholder'=>'Id',)); 
-         echo $form->textField($model,'id_user',array('class'=>'span3','placeholder'=>'Id User',)); 
+//         echo $form->textField($model,'id_user',array('class'=>'span3','placeholder'=>'Id User',)); 
          echo $form->textField($model,'nip',array('size'=>10,'maxlength'=>10,'class'=>'span3','placeholder'=>'Nip',)); 
-        // echo $form->textField($model,'nama',array('size'=>32,'maxlength'=>32,'class'=>'span3','placeholder'=>'Nama',)); 
+         echo $form->textField($model,'nama',array('size'=>32,'maxlength'=>32,'class'=>'span3','placeholder'=>'Nama',)); 
         // echo $form->textField($model,'alamat',array('size'=>50,'maxlength'=>50,'class'=>'span3','placeholder'=>'Alamat',)); 
         // echo $form->textField($model,'catatan',array('size'=>50,'maxlength'=>50,'class'=>'span3','placeholder'=>'Catatan',)); 
         // echo $form->textField($model,'id_jenjang_pendidikan',array('class'=>'span3','placeholder'=>'Id Jenjang Pendidikan',)); 

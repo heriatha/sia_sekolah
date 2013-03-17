@@ -18,9 +18,11 @@
     <div class="form">    
         <fieldset>
         <?php
-        $this->renderPartial('//user/_form_mini',array(
-            'model'=>$user,'form'=>$form
-        ));
+        if($model->isNewRecord){
+            $this->renderPartial('//user/_form_mini',array(
+                'model'=>$user,'form'=>$form
+            ));
+        }
         ?>    
 	<?php echo $form->errorSummary($model); ?>
 
@@ -41,22 +43,14 @@
 	</div>
 
 	<div class="control-group">
-		<?php echo $form->labelEx($model,'alamat',array('class'=>'control-label')); ?>
+		<?php echo $form->labelEx($model,'id_golongan',array('class'=>'control-label')); ?>
                 <div class="controls">
-                    <?php echo $form->textField($model,'alamat',array('size'=>50,'maxlength'=>50,)); ?>
-                    <?php echo $form->error($model,'alamat'); ?>
+                    <?php echo $form->dropDownList($model, 'id_golongan', Golongan::model()->dropdownModel()); ?>
+                    <?php echo $form->error($model,'id_golongan'); ?>
                 </div>    
 	</div>
 
-	<div class="control-group">
-		<?php echo $form->labelEx($model,'catatan',array('class'=>'control-label')); ?>
-                <div class="controls">
-                    <?php echo $form->textField($model,'catatan',array('size'=>50,'maxlength'=>50,)); ?>
-                    <?php echo $form->error($model,'catatan'); ?>
-                </div>    
-	</div>
-
-	<div class="control-group">
+            <div class="control-group">
 		<?php echo $form->labelEx($model,'id_jenjang_pendidikan',array('class'=>'control-label')); ?>
                 <div class="controls">
                     <?php echo $form->dropDownList($model, 'id_jenjang_pendidikan', JenjangPendidikan::model()->getCbModel()); ?>
@@ -105,6 +99,22 @@
                 </div>    
 	</div>
 
+	<div class="control-group">
+		<?php echo $form->labelEx($model,'alamat',array('class'=>'control-label')); ?>
+                <div class="controls">
+                    <?php echo $form->textField($model,'alamat',array('size'=>50,'maxlength'=>50,)); ?>
+                    <?php echo $form->error($model,'alamat'); ?>
+                </div>    
+	</div>
+            
+        <div class="control-group">
+		<?php echo $form->labelEx($model,'catatan',array('class'=>'control-label')); ?>
+                <div class="controls">
+                    <?php echo $form->textField($model,'catatan',array('size'=>50,'maxlength'=>50,)); ?>
+                    <?php echo $form->error($model,'catatan'); ?>
+                </div>    
+	</div>
+            
         </fieldset>
     </div><!-- form -->
 </div>

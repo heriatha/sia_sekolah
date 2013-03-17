@@ -284,7 +284,7 @@ $(document).ready(function(){
 
        for(i=0;i<forms.length;i++){
            var value=$(forms[i]).attr('value');
-           if(value!=''){
+           if(value!='' && value!=undefined){
                 var day=value.substring(0, 2)*1;
                 var month=value.substring(3, 5)*1;
                 var year=value.substring(6, 10)*1;
@@ -303,17 +303,16 @@ function datefmysql(){
     var forms=$('.tanggal');
     for(var i=0;i<forms.length;i++){
            var value=$(forms[i]).attr('value');
-           if(value!=''){
+           if(value!='' && value!=undefined && value.substring(2,3)!='/'){
                 var day=value.substring(8, 10)*1;
                 var month=value.substring(5, 7)*1;
                 var year=value.substring(0, 4)*1;
                 if(month.size==1){
                     month='0'+month;
                 }
-                $(forms[i]).attr('value',l(day)+'/'+l(month)+'/'+(year));       
+                if(day!=NaN && month!=NaN && year!=NaN)
+                    $(forms[i]).attr('value',l(day)+'/'+l(month)+'/'+(year));       
            }
    }
-    
-    
 }
 

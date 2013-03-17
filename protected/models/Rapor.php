@@ -215,4 +215,15 @@ class Rapor extends MyCActiveRecord
                 return false;
             }
         }
+        function getRaporSiswaByNisTahunAjaran($nis,$id_tahun_ajaran){
+            $query= Yii::app()->db->createCommand()
+                    ->select('rapor.*')
+                    ->from('rapor')
+                    ->join('siswa', 'siswa.id=rapor.id_siswa')
+                    ->where("rapor.id_tahun_ajaran='$id_tahun_ajaran'")
+                    ->andWhere("siswa.nis='$nis'")
+                    ;
+//            echo $query->text.'<br>';
+            return $query->queryRow();
+        }
 }

@@ -215,10 +215,13 @@ class Siswa extends MyCActiveRecord
             $result['tanggal_diterima']=  $this->datefmysql($result['tanggal_diterima']);
             return $result;
         }
-        function getSiswaByKelasAktif($id_kelas_aktif){
-            return Yii::app()->db->createCommand("
-                    select * from siswa where siswa.id in (select id_siswa from rapor where id_kelas_aktif='$id_kelas_aktif')
-                ")->queryAll();
+        function getSiswaByKelasAktif($id_kelas_aktif,$not_in_id_tahun_ajaran=null){
+            $query= Yii::app()->db->createCommand()->select()
+                    ->from('siswa')
+                    ->where("siswa.id in (select id_siswa from rapor where id_kelas_aktif='$id_kelas_aktif')");
+            if($not_in_id_tahun_ajaran)
+                    $query->andWhere("siswa.id not in (select id_siswa from rapor where id_tahun_ajaran=$not_in_id_tahun_ajaran)");
+            return $query->queryAll();
         }
         function getSiswaBaru($id_tingkat_kelas){
             return Yii::app()->db->createCommand("

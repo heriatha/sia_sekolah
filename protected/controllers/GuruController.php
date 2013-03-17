@@ -68,7 +68,7 @@ class GuruController extends MyController
                 $user =new User;
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
-                $this->show_array($_POST);
+//                $this->show_array($_POST);
 		if(isset($_POST['Guru']))
 		{
 			$model->attributes=$_POST['Guru'];

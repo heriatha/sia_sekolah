@@ -1,18 +1,19 @@
 <?php
 
 /**
- * This is the model class for table "tes".
+ * This is the model class for table "Golongan".
  *
- * The followings are the available columns in table 'tes':
+ * The followings are the available columns in table 'Golongan':
  * @property integer $id
  * @property string $nama
+ * @property string $keterangan
  */
-class Tes extends CActiveRecord
+class Golongan extends MyCActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return Tes the static model class
+	 * @return Golongan the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -24,7 +25,7 @@ class Tes extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'tes';
+		return 'Golongan';
 	}
 
 	/**
@@ -36,10 +37,10 @@ class Tes extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('nama', 'required'),
-			array('nama', 'length', 'max'=>15),
+			array('nama, keterangan', 'length', 'max'=>50),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, nama', 'safe', 'on'=>'search'),
+			array('id, nama, keterangan', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -62,9 +63,21 @@ class Tes extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'nama' => 'Nama',
+			'keterangan' => 'Keterangan',
 		);
 	}
 
+        public function dropdownModel(){
+            $results=Yii::app()->db->createCommand()->select()
+                    ->from($this->tableName())
+                    ->queryAll();
+            $data=array(''=>'- Pilih Golongan -');
+            foreach($results as $result){
+                $data[$result['id']]=$result['nama'];
+            }
+            return $data;
+        }
+        
 	/**
 	 * Retrieves a list of models based on the current search/filter conditions.
 	 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
@@ -78,6 +91,7 @@ class Tes extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('nama',$this->nama,true);
+		$criteria->compare('keterangan',$this->keterangan,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

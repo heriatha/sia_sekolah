@@ -12,10 +12,11 @@
  */
 class MyController extends Controller {
     var $title="Sistem Informasi Akademik";
+    var $checkLogin=true;
     var $tahunAjaran="";
     public function __construct($id, $module = null) {
         parent::__construct($id, $module);
-        if(!Yii::app()->user->isLogin() && $id!='login'){
+        if(!Yii::app()->user->isLogin() && $id!='login' && $this->checkLogin){
             $this->redirect(Yii::app()->createUrl('login/login'));
         }
     }

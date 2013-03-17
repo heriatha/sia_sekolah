@@ -1,0 +1,207 @@
+Mon 2010/05/17 08:07:55 gammu-smsd-inject[3376]: Warning: No PIN code in smsdrc file
+Mon 2010/05/17 08:07:55 gammu-smsd-inject[3376]: Connected to Database: smsd on localhost
+Mon 2010/05/17 08:07:55 gammu-smsd-inject[3376]: Written message with ID 43
+Mon 2010/05/17 08:10:43 gammu-smsd-inject[1840]: Connected to Database: smsd on localhost
+Mon 2010/05/17 08:10:43 gammu-smsd-inject[1840]: Written message with ID 44
+Mon 2010/05/17 08:32:20 gammu-smsd-inject[2812]: Connected to Database: smsd on localhost
+Mon 2010/05/17 08:32:20 gammu-smsd-inject[2812]: Written message with ID 48
+Fri 2010/05/28 14:13:13 gammu-smsd-inject[3056]: Connected to Database: v2 on localhost
+Fri 2010/05/28 14:13:13 gammu-smsd-inject[3056]: Written message with ID 1
+Mon 2010/05/31 05:51:40 gammu-smsd-inject[644]: Connected to Database: smsgammu on localhost
+Mon 2010/05/31 05:51:40 gammu-smsd-inject[644]: Written message with ID 1
+Mon 2010/05/31 05:55:36 gammu-smsd-inject[208]: Connected to Database: smsgammu on localhost
+Mon 2010/05/31 05:55:36 gammu-smsd-inject[208]: Written message with ID 2
+Wed 2010/09/22 16:37:17 gammu-smsd-inject[2156]: Connected to Database: xxx on localhost
+Wed 2010/09/22 16:37:17 gammu-smsd-inject[2156]: Written message with ID 1
+Thu 2010/09/30 06:42:57 gammu-smsd-inject[3392]: Connected to Database: phpsms on localhost
+Thu 2010/09/30 06:42:57 gammu-smsd-inject[3392]: Written message with ID 3166
+Thu 2010/09/30 07:44:18 gammu-smsd-inject[3604]: Connected to Database: phpsms on localhost
+Thu 2010/09/30 07:44:18 gammu-smsd-inject[3604]: Written message with ID 3167
+Thu 2010/09/30 07:49:10 gammu-smsd-inject[3440]: Connected to Database: phpsms on localhost
+Thu 2010/09/30 07:49:10 gammu-smsd-inject[3440]: Written message with ID 3168
+Thu 2010/09/30 07:54:48 gammu-smsd-inject[3716]: Connected to Database: phpsms on localhost
+Thu 2010/09/30 07:54:48 gammu-smsd-inject[3716]: Written message with ID 3169
+Fri 2010/10/01 06:47:21 gammu-smsd-inject[2568]: Connected to Database: phpsms on localhost
+Fri 2010/10/01 06:47:21 gammu-smsd-inject[2568]: Written message with ID 3334
+Fri 2010/10/01 06:49:23 gammu-smsd-inject[2248]: Connected to Database: phpsms on localhost
+Fri 2010/10/01 06:49:23 gammu-smsd-inject[2248]: Written message with ID 3335
+Fri 2010/10/01 07:46:36 gammu-smsd-inject[3448]: Connected to Database: phpsms on localhost
+Fri 2010/10/01 07:46:36 gammu-smsd-inject[3448]: Written message with ID 3336
+Wed 2010/10/06 08:42:11 gammu-smsd-inject[3968]: Connected to Database: phpsms on localhost
+Wed 2010/10/06 08:42:11 gammu-smsd-inject[3968]: Written message with ID 3341
+Wed 2010/10/06 08:44:26 gammu-smsd-inject[3796]: Connected to Database: phpsms on localhost
+Wed 2010/10/06 08:44:26 gammu-smsd-inject[3796]: Written message with ID 3342
+Thu 2010/10/07 08:22:49 gammu-smsd-inject[1424]: Connected to Database: phpsms on localhost
+Thu 2010/10/07 08:22:49 gammu-smsd-inject[1424]: Written message with ID 3343
+Thu 2010/10/07 08:27:09 gammu-smsd-inject[3620]: Connected to Database: phpsms on localhost
+Thu 2010/10/07 08:27:09 gammu-smsd-inject[3620]: Written message with ID 3344
+Thu 2010/10/07 21:31:41 gammu-smsd-inject[3140]: Connected to Database: phpsms on localhost
+Thu 2010/10/07 21:31:41 gammu-smsd-inject[3140]: Written message with ID 3345
+Sat 2010/10/09 06:55:48 gammu-smsd-inject[2644]: Connected to Database: phpsms on localhost
+Sat 2010/10/09 06:55:48 gammu-smsd-inject[2644]: Written message with ID 3346
+Sat 2010/10/09 07:00:13 gammu-smsd-inject[2924]: Connected to Database: phpsms on localhost
+Sat 2010/10/09 07:00:13 gammu-smsd-inject[2924]: Written message with ID 3347
+Mon 2010/10/11 08:02:25 gammu-smsd-inject[4056]: Connected to Database: phpsms on localhost
+Mon 2010/10/11 08:02:25 gammu-smsd-inject[4056]: Written message with ID 3348
+Mon 2010/10/11 08:09:40 gammu-smsd-inject[2852]: Connected to Database: phpsms on localhost
+Mon 2010/10/11 08:09:40 gammu-smsd-inject[2852]: Written message with ID 3349
+Thu 2010/10/14 14:36:14 gammu-smsd-inject[1724]: Connected to Database: phpsmsupdate on localhost
+Thu 2010/10/14 14:36:14 gammu-smsd-inject[1724]: Written message with ID 77
+Thu 2010/10/21 05:04:26 gammu-smsd-inject[1660]: Connected to Database: gampsms on localhost
+Thu 2010/10/21 05:04:26 gammu-smsd-inject[1660]: Written message with ID 1
+Thu 2010/10/21 05:04:46 gammu-smsd-inject[1816]: Connected to Database: gampsms on localhost
+Thu 2010/10/21 05:04:46 gammu-smsd-inject[1816]: Written message with ID 2
+Thu 2010/10/21 05:35:35 gammu-smsd-inject[3404]: Connected to Database: gampsms on localhost
+Thu 2010/10/21 05:35:35 gammu-smsd-inject[3404]: Written message with ID 1
+Thu 2010/10/21 05:35:51 gammu-smsd-inject[3648]: Connected to Database: gampsms on localhost
+Thu 2010/10/21 05:35:51 gammu-smsd-inject[3648]: Written message with ID 2
+Mon 2010/11/22 06:43:08 gammu-smsd-inject[2024]: Connected to Database: gammux on localhost
+Mon 2010/11/22 06:43:08 gammu-smsd-inject[2024]: Written message with ID 1
+Tue 2010/11/23 07:59:41 gammu-smsd-inject[3472]: Connected to Database: gammutest on localhost
+Tue 2010/11/23 07:59:41 gammu-smsd-inject[3472]: Written message with ID 1
+Tue 2010/11/23 08:05:05 gammu-smsd-inject[3760]: Connected to Database: gammutest on localhost
+Tue 2010/11/23 08:05:05 gammu-smsd-inject[3760]: Written message with ID 2
+Thu 2010/11/25 05:35:41 gammu-smsd-inject[2436]: Connected to Database: sms_service on localhost
+Thu 2010/11/25 05:35:41 gammu-smsd-inject[2436]: Written message with ID 103
+Fri 2010/11/26 06:23:30 gammu-smsd-inject[2020]: Connected to Database: sms_service on localhost
+Fri 2010/11/26 06:23:30 gammu-smsd-inject[2020]: Written message with ID 122
+Fri 2010/11/26 06:24:15 gammu-smsd-inject[2860]: Connected to Database: sms_service on localhost
+Fri 2010/11/26 06:24:15 gammu-smsd-inject[2860]: Written message with ID 123
+Fri 2010/11/26 06:25:09 gammu-smsd-inject[2164]: Connected to Database: sms_service on localhost
+Fri 2010/11/26 06:25:09 gammu-smsd-inject[2164]: Written message with ID 124
+Fri 2010/11/26 06:25:18 gammu-smsd-inject[3084]: Connected to Database: sms_service on localhost
+Fri 2010/11/26 06:25:18 gammu-smsd-inject[3084]: Written message with ID 125
+Sat 2010/11/27 09:09:43 gammu-smsd-inject[2536]: Connected to Database: gammutest on localhost
+Sat 2010/11/27 09:09:43 gammu-smsd-inject[2536]: Written message with ID 3
+Sat 2010/11/27 09:26:32 gammu-smsd-inject[1188]: Connected to Database: gammutest on localhost
+Sat 2010/11/27 09:26:32 gammu-smsd-inject[1188]: Written message with ID 4
+Sat 2010/11/27 09:29:15 gammu-smsd-inject[2360]: Connected to Database: gammutest on localhost
+Sat 2010/11/27 09:29:15 gammu-smsd-inject[2360]: Written message with ID 5
+Sat 2010/11/27 09:32:04 gammu-smsd-inject[2072]: Connected to Database: testgammu on localhost
+Sat 2010/11/27 09:32:04 gammu-smsd-inject[2072]: Written message with ID 1
+Sun 2010/11/28 13:34:06 gammu-smsd-inject[3884]: Connected to Database: testgammu on localhost
+Sun 2010/11/28 13:34:06 gammu-smsd-inject[3884]: Written message with ID 2
+Mon 2010/11/29 05:12:06 gammu-smsd-inject[3232]: Connected to Database: testgammu on localhost
+Mon 2010/11/29 05:12:06 gammu-smsd-inject[3232]: Written message with ID 3
+Mon 2010/11/29 05:24:08 gammu-smsd-inject[2360]: Connected to Database: gammutest on localhost
+Mon 2010/11/29 05:24:08 gammu-smsd-inject[2360]: Written message with ID 1
+Mon 2010/11/29 13:04:13 gammu-smsd-inject[1704]: Connected to Database: gammutest on localhost
+Mon 2010/11/29 13:04:13 gammu-smsd-inject[1704]: Written message with ID 2
+Mon 2010/11/29 13:11:36 gammu-smsd-inject[3696]: Connected to Database: gammutest on localhost
+Mon 2010/11/29 13:11:36 gammu-smsd-inject[3696]: Written message with ID 3
+Wed 2011/05/11 21:08:04 gammu-smsd-inject[3548]: Connected to Database: gammu on localhost
+Wed 2011/05/11 21:08:04 gammu-smsd-inject[3548]: Written message with ID 1
+Wed 2011/05/11 21:35:03 gammu-smsd-inject[3504]: Connected to Database: gammu on localhost
+Wed 2011/05/11 21:35:03 gammu-smsd-inject[3504]: Written message with ID 4
+Wed 2011/05/11 21:37:22 gammu-smsd-inject[3976]: Connected to Database: gammu on localhost
+Wed 2011/05/11 21:37:22 gammu-smsd-inject[3976]: Written message with ID 5
+Wed 2011/05/11 21:39:30 gammu-smsd-inject[3992]: Connected to Database: gammu on localhost
+Wed 2011/05/11 21:39:30 gammu-smsd-inject[3992]: Written message with ID 6
+Fri 2011/05/13 08:52:57 gammu-smsd-inject[3968]: Connected to Database: gammu on localhost
+Fri 2011/05/13 08:52:57 gammu-smsd-inject[3968]: Written message with ID 7
+Fri 2011/05/13 08:52:57 gammu-smsd-inject[3988]: Connected to Database: gammu on localhost
+Fri 2011/05/13 08:52:57 gammu-smsd-inject[3988]: Written message with ID 8
+Fri 2011/05/13 15:58:03 gammu-smsd-inject[3908]: Connected to Database: gammu on localhost
+Fri 2011/05/13 15:58:03 gammu-smsd-inject[3908]: Written message with ID 9
+Fri 2011/05/13 15:58:03 gammu-smsd-inject[3928]: Connected to Database: gammu on localhost
+Fri 2011/05/13 15:58:03 gammu-smsd-inject[3928]: Written message with ID 10
+Fri 2011/05/13 15:58:30 gammu-smsd-inject[1532]: Connected to Database: gammu on localhost
+Fri 2011/05/13 15:58:30 gammu-smsd-inject[1532]: Written message with ID 11
+Sat 2011/05/14 09:11:20 gammu-smsd-inject[2736]: Connected to Database: gammu on localhost
+Sat 2011/05/14 09:11:20 gammu-smsd-inject[2736]: Written message with ID 12
+Sat 2011/05/14 09:11:20 gammu-smsd-inject[2080]: Connected to Database: gammu on localhost
+Sat 2011/05/14 09:11:20 gammu-smsd-inject[2080]: Written message with ID 13
+Mon 2011/05/16 20:01:42 gammu-smsd-inject[2064]: Connected to Database: gammu on localhost
+Mon 2011/05/16 20:01:42 gammu-smsd-inject[2064]: Written message with ID 14
+Mon 2011/05/16 20:07:59 gammu-smsd-inject[3192]: Connected to Database: gammu on localhost
+Mon 2011/05/16 20:07:59 gammu-smsd-inject[3192]: Written message with ID 15
+Tue 2011/05/17 10:17:06 gammu-smsd-inject[716]: Connected to Database: gammu on localhost
+Tue 2011/05/17 10:17:06 gammu-smsd-inject[716]: Written message with ID 16
+Tue 2011/05/17 10:17:59 gammu-smsd-inject[3748]: Connected to Database: gammu on localhost
+Tue 2011/05/17 10:17:59 gammu-smsd-inject[3748]: Written message with ID 17
+Tue 2011/05/17 10:20:10 gammu-smsd-inject[3784]: Connected to Database: gammu on localhost
+Tue 2011/05/17 10:20:10 gammu-smsd-inject[3784]: Written message with ID 18
+Tue 2011/05/17 10:21:14 gammu-smsd-inject[296]: Connected to Database: gammu on localhost
+Tue 2011/05/17 10:21:14 gammu-smsd-inject[296]: Written message with ID 19
+Tue 2011/05/17 10:23:25 gammu-smsd-inject[3520]: Connected to Database: gammu on localhost
+Tue 2011/05/17 10:23:25 gammu-smsd-inject[3520]: Written message with ID 20
+Tue 2011/05/17 10:41:48 gammu-smsd-inject[3568]: Connected to Database: gammu on localhost
+Tue 2011/05/17 10:41:48 gammu-smsd-inject[3568]: Written message with ID 21
+Tue 2011/05/17 10:41:48 gammu-smsd-inject[2644]: Connected to Database: gammu on localhost
+Tue 2011/05/17 10:41:48 gammu-smsd-inject[2644]: Written message with ID 22
+Sun 2012/06/24 13:20:37 gammu-smsd-inject[6756]: Connected to Database: gammu_ibu_hamil on localhost
+Sun 2012/06/24 13:20:37 gammu-smsd-inject[6756]: Written message with ID 1
+Sun 2012/06/24 13:23:02 gammu-smsd-inject[2412]: Connected to Database: gammu_ibu_hamil on localhost
+Sun 2012/06/24 13:23:02 gammu-smsd-inject[2412]: Written message with ID 2
+Sun 2012/06/24 13:24:13 gammu-smsd-inject[7988]: Connected to Database: gammu_ibu_hamil on localhost
+Sun 2012/06/24 13:24:13 gammu-smsd-inject[7988]: Written message with ID 3
+Sun 2012/06/24 15:36:35 gammu-smsd-inject[7240]: Connected to Database: gammu_ibu_hamil on localhost
+Sun 2012/06/24 15:36:35 gammu-smsd-inject[7240]: Written message with ID 4
+Sun 2012/06/24 15:41:08 gammu-smsd-inject[7200]: Connected to Database: gammu_ibu_hamil on localhost
+Sun 2012/06/24 15:41:08 gammu-smsd-inject[7200]: Written message with ID 1
+Sun 2012/06/24 15:51:14 gammu-smsd-inject[4780]: Connected to Database: gammu_ibu_hamil on localhost
+Sun 2012/06/24 15:51:14 gammu-smsd-inject[4780]: Written message with ID 1
+Sun 2012/06/24 16:19:42 gammu-smsd-inject[6152]: Connected to Database: gammu_ibu_hamil on localhost
+Sun 2012/06/24 16:19:42 gammu-smsd-inject[6152]: Written message with ID 2
+Sun 2012/06/24 16:24:26 gammu-smsd-inject[1912]: Connected to Database: gammu_ibu_hamil on localhost
+Sun 2012/06/24 16:24:26 gammu-smsd-inject[1912]: Written message with ID 3
+Mon 2012/06/25 15:15:22 gammu-smsd-inject[10216]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/06/25 15:15:22 gammu-smsd-inject[10216]: Written message with ID 4
+Mon 2012/06/25 15:52:06 gammu-smsd-inject[6760]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/06/25 15:52:06 gammu-smsd-inject[6760]: Written message with ID 1
+Mon 2012/06/25 15:56:34 gammu-smsd-inject[5812]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/06/25 15:56:34 gammu-smsd-inject[5812]: Written message with ID 1
+Mon 2012/06/25 16:01:00 gammu-smsd-inject[3408]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/06/25 16:01:00 gammu-smsd-inject[3408]: Written message with ID 1
+Mon 2012/06/25 16:03:53 gammu-smsd-inject[7616]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/06/25 16:03:53 gammu-smsd-inject[7616]: Written message with ID 1
+Mon 2012/06/25 16:07:02 gammu-smsd-inject[7736]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/06/25 16:07:02 gammu-smsd-inject[7736]: Written message with ID 1
+Mon 2012/06/25 16:09:01 gammu-smsd-inject[8276]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/06/25 16:09:01 gammu-smsd-inject[8276]: Written message with ID 2
+Mon 2012/06/25 22:52:24 gammu-smsd-inject[8072]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/06/25 22:52:24 gammu-smsd-inject[8072]: Written message with ID 3
+Mon 2012/06/25 22:52:25 gammu-smsd-inject[6232]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/06/25 22:52:25 gammu-smsd-inject[6232]: Written message with ID 4
+Mon 2012/06/25 22:52:31 gammu-smsd-inject[8644]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/06/25 22:52:31 gammu-smsd-inject[8644]: Written message with ID 5
+Mon 2012/06/25 22:56:10 gammu-smsd-inject[5496]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/06/25 22:56:10 gammu-smsd-inject[5496]: Written message with ID 6
+Mon 2012/06/25 22:56:53 gammu-smsd-inject[8476]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/06/25 22:56:53 gammu-smsd-inject[8476]: Written message with ID 7
+Mon 2012/06/25 22:57:56 gammu-smsd-inject[7308]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/06/25 22:57:56 gammu-smsd-inject[7308]: Written message with ID 8
+Mon 2012/06/25 22:58:31 gammu-smsd-inject[2920]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/06/25 22:58:31 gammu-smsd-inject[2920]: Written message with ID 9
+Wed 2012/06/27 19:33:25 gammu-smsd-inject[17004]: Connected to Database: gammu_ibu_hamil on localhost
+Wed 2012/06/27 19:33:25 gammu-smsd-inject[17004]: Written message with ID 1
+Wed 2012/06/27 19:33:25 gammu-smsd-inject[16992]: Connected to Database: gammu_ibu_hamil on localhost
+Wed 2012/06/27 19:33:25 gammu-smsd-inject[16992]: Written message with ID 2
+Wed 2012/06/27 19:33:26 gammu-smsd-inject[17452]: Connected to Database: gammu_ibu_hamil on localhost
+Wed 2012/06/27 19:33:26 gammu-smsd-inject[17452]: Written message with ID 3
+Fri 2012/07/06 00:38:35 gammu-smsd-inject[6920]: Connected to Database: gammu_ibu_hamil on localhost
+Fri 2012/07/06 00:38:35 gammu-smsd-inject[6920]: Written message with ID 4
+Fri 2012/07/06 00:45:06 gammu-smsd-inject[7396]: Connected to Database: gammu_ibu_hamil on localhost
+Fri 2012/07/06 00:45:06 gammu-smsd-inject[7396]: Written message with ID 5
+Fri 2012/07/06 12:55:28 gammu-smsd-inject[3164]: Connected to Database: gammu_ibu_hamil on localhost
+Fri 2012/07/06 12:55:28 gammu-smsd-inject[3164]: Written message with ID 17
+Fri 2012/07/06 13:18:21 gammu-smsd-inject[7804]: Connected to Database: gammu_ibu_hamil on localhost
+Fri 2012/07/06 13:18:21 gammu-smsd-inject[7804]: Written message with ID 19
+Fri 2012/07/06 13:19:01 gammu-smsd-inject[5244]: Connected to Database: gammu_ibu_hamil on localhost
+Fri 2012/07/06 13:19:01 gammu-smsd-inject[5244]: Written message with ID 20
+Fri 2012/07/06 13:27:49 gammu-smsd-inject[7468]: Connected to Database: gammu_ibu_hamil on localhost
+Fri 2012/07/06 13:27:49 gammu-smsd-inject[7468]: Written message with ID 21
+Fri 2012/07/06 13:36:22 gammu-smsd-inject[6640]: Connected to Database: gammu_ibu_hamil on localhost
+Fri 2012/07/06 13:36:22 gammu-smsd-inject[6640]: Written message with ID 22
+Mon 2012/07/09 09:33:04 gammu-smsd-inject[8092]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/07/09 09:33:04 gammu-smsd-inject[8092]: Written message with ID 23
+Mon 2012/07/09 10:46:25 gammu-smsd-inject[7100]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/07/09 10:46:25 gammu-smsd-inject[7100]: Written message with ID 24
+Mon 2012/07/09 11:06:06 gammu-smsd-inject[6868]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/07/09 11:06:06 gammu-smsd-inject[6868]: Written message with ID 25
+Mon 2012/07/09 11:09:56 gammu-smsd-inject[5856]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/07/09 11:09:56 gammu-smsd-inject[5856]: Written message with ID 26
+Mon 2012/07/09 11:15:06 gammu-smsd-inject[3384]: Connected to Database: gammu_ibu_hamil on localhost
+Mon 2012/07/09 11:15:06 gammu-smsd-inject[3384]: Written message with ID 27
+Sun 2013/02/17 18:51:36 gammu-smsd-inject[3824]: DataBase structures are from higher Gammu version
+Sun 2013/02/17 18:51:36 gammu-smsd-inject[3824]: Please update this client application

@@ -1,0 +1,162 @@
+1. setting port connection file gammurc
+
+2. passthru("gammu -s 0 -c gammurc identify", $hasil);
+   passthru("gammu -s 1 -c gammurc identify", $hasil);
+		|	
+		|
+    passthru("gammu -s 3 -c gammurc identify", $hasil);
+
+3. Membuat Service gammu
+	
+   passthru("gammu-smsd -n phone1 -k", $hasil);
+   passthru("gammu-smsd -n phone2 -k", $hasil);
+   passthru("gammu-smsd -n phone3 -k", $hasil);
+   passthru("gammu-smsd -n phone4 -k", $hasil);   
+   passthru("gammu-smsd -n phone1 -u", $hasil);
+   passthru("gammu-smsd -n phone2 -u", $hasil);
+   passthru("gammu-smsd -n phone3 -u", $hasil);
+   passthru("gammu-smsd -n phone4 -u", $hasil); 
+
+   $handle = @fopen("smsdrc1", "r");
+   while (!feof($handle)) 
+   {
+        $buffer = fgets($handle);
+        if (substr_count($buffer, 'port = ') > 0)
+		{
+		   $split = explode("port = ", $buffer);
+		   $port1 = str_replace(":", " ", $split[1]);
+		}
+   }	
+   if ($port1 != "\r\n") passthru("gammu-smsd -c smsdrc1 -n phone1 -i", $hasil);
+   fclose($handle);
+
+   $handle = @fopen("smsdrc2", "r");
+   while (!feof($handle)) 
+   {
+        $buffer = fgets($handle);
+        if (substr_count($buffer, 'port = ') > 0)
+		{
+		   $split = explode("port = ", $buffer);
+		   $port2 = str_replace(":", "", $split[1]);
+		}
+   }
+   if ($port2 != "\r\n") passthru("gammu-smsd -c smsdrc2 -n phone2 -i", $hasil);
+   fclose($handle);
+   
+   $handle = @fopen("smsdrc3", "r");
+   while (!feof($handle)) 
+   {
+        $buffer = fgets($handle);
+        if (substr_count($buffer, 'port = ') > 0)
+		{
+		   $split = explode("port = ", $buffer);
+		   $port3 = str_replace(":", "", $split[1]);
+		}
+   }	
+   if ($port3 != "\r\n") passthru("gammu-smsd -c smsdrc3 -n phone3 -i", $hasil);
+   fclose($handle);
+   
+   $handle = @fopen("smsdrc4", "r");
+   while (!feof($handle)) 
+   {
+        $buffer = fgets($handle);
+        if (substr_count($buffer, 'port = ') > 0)
+		{
+		   $split = explode("port = ", $buffer);
+		   $port4 = str_replace(":", "", $split[1]);
+		}
+   }	
+   if ($port4 != "\r\n") passthru("gammu-smsd -c smsdrc4 -n phone4 -i", $hasil);
+   fclose($handle);
+
+4. Menjalankan service gammu
+
+   passthru("gammu-smsd -c smsdrc1 -n phone1 -s");
+   passthru("gammu-smsd -c smsdrc2 -n phone2 -s");
+   passthru("gammu-smsd -c smsdrc3 -n phone3 -s");
+   passthru("gammu-smsd -c smsdrc4 -n phone4 -s");   
+
+5. Mengirim Sms
+	// $phone 'smsdrc1'
+   passthru('gammu-smsd-inject -c '.$phone.' TEXT '.$nohp.' -text "'.$sms.'"');
+
+6. Menerima Sms
+   
+<html>
+<head>
+  <script type="text/javascript">
+  
+  function ajax() 
+  {
+  if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+     xmlhttp=new XMLHttpRequest();
+  }
+  else
+  {// code for IE6, IE5
+     xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  
+  xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("sms").innerHTML = xmlhttp.responseText;
+    }
+  }
+  
+  xmlhttp.open("GET","run2.php",true);
+  xmlhttp.send();
+  setTimeout("ajax()", 1000);
+  }  
+  </script>
+</head>
+
+<body onload="ajax()">
+<?php include "menu2.php"; ?>
+
+<h2>Langkah 8 - Test Menerima SMS</h2>
+
+<p>Silakan kirim SMS ke nomor HP SMS Center Anda. Jika SMS sukses diterima oleh GAMMU akan muncul di bawah ini</p>
+
+<div id="sms">
+</div>
+
+</body>
+</html>
+
+7. Menghentikan service gammu
+  
+   passthru("gammu-smsd -n phone1 -k");
+   passthru("gammu-smsd -n phone2 -k");
+   passthru("gammu-smsd -n phone3 -k");
+   passthru("gammu-smsd -n phone4 -k");   
+
+AUTO REPLAY
+
+<script type="text/javascript">
+function ajax()
+{
+  if (window.XMLHttpRequest)
+  {
+     xmlhttp=new XMLHttpRequest();
+  }
+  else
+  {
+     xmlhttp =new ActiveXObject("Microsoft.XMLHTTP");
+  }
+ 
+  xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+   }
+  }
+
+ xmlhttp.open("GET","auto_replay.php");
+  xmlhttp.send();
+  setTimeout("ajax()", 1000);
+}
+</script>
+
+

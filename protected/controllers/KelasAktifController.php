@@ -230,7 +230,7 @@ class KelasAktifController extends MyController
             
             $data['siswaKelasAktif']=$siswaModel->getSiswaByKelasAktif($id_kelas_aktif);
             if($id_kelas_aktif_asal!=-1)
-                $data['siswaKelasLama'] =$siswaModel->getSiswaByKelasAktif($id_kelas_aktif_asal);
+                $data['siswaKelasLama'] =$siswaModel->getSiswaByKelasAktif($id_kelas_aktif_asal,$kelasAktifModel->findByPk($id_kelas_aktif)->id_tahun_ajaran);
             else{
                 $data['siswaKelasLama'] =$siswaModel->getSiswaBaru($data['kelasTujuan']['id_tingkat_kelas']);
             }

@@ -21,7 +21,7 @@
 		</div>
 
 		<footer>
-			<p class="pull-left">&copy; <a href="https://www.facebook.com/endif.tc" target="_blank">Endif</a> 2012</p>
+			<p class="pull-left">&copy; <a href="https://www.facebook.com/heri_eternity" target="_blank">Heri Widiyantoro</a> 2012</p>
 			<p class="pull-right">Powered by: <a href="<?php echo Yii::app()->theme->baseUrl; ?>/asset/http://usman.it/free-responsive-admin-template">Charisma</a></p>
 		</footer>
 		
@@ -69,6 +69,7 @@
 	<script src="<?php echo Yii::app()->theme->baseUrl; ?>/asset/js/jquery.history.js"></script>
 	<script src="<?php echo Yii::app()->theme->baseUrl; ?>/asset/js/charisma.js"></script>
         <script src="<?php echo Yii::app()->theme->baseUrl; ?>/asset/js/dialog.js"></script>
+        <script src="<?php echo Yii::app()->theme->baseUrl; ?>/asset/js/jquery.timer.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
                 $('.tanggal').datepicker();
@@ -92,7 +93,19 @@
                 unset(Yii::app()->session['failed']);
             }
         ?>
-            
+         
+        $(document).everyTime(5000,'load_comment',function(){
+            $.ajax({
+                url:'<?= Yii::app()->createUrl('message/smsRequest') ?>',
+                cache: false,
+                datatype: 'html',
+                type:'POST',
+                success:function (data){
+
+                }
+            });
+        }); 
+         
         </script>
 </body>
 </html>

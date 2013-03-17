@@ -167,4 +167,21 @@ class Absen extends MyCActiveRecord
 //            echo $absenQuery->text;
             return $absenQuery->queryRow();
         }
+        function getRekapitulasiAbsenSiswaByRaporBulan($id_rapor,$bulan){
+            $bulan=$bulan*1;
+             $absenQuery=  Yii::app()->db->createCommand()
+                    ->select(array(
+                        "sum(case absen_siswa.absen when 'masuk' then 1 else 0 end) as masuk",
+                        "sum(case absen_siswa.absen when 'ijin' then 1 else 0 end) as ijin",
+                        "sum(case absen_siswa.absen when 'sakit' then 1 else 0 end) as sakit",
+                        "sum(case absen_siswa.absen when 'alpha' then 1 else 0 end) as alpha",
+                    ))
+                    ->from('absen_siswa')
+                    ->join('absen','absen.id=absen_siswa.id_absen') 
+                    ->where("month(absen.tanggal)='$bulan'") 
+                     ;
+            $absenQuery->andWhere("absen_siswa.id_rapor='$id_rapor'");
+//            echo $absenQuery->text.'';
+            return $absenQuery->queryRow();
+        }
 }

@@ -20,14 +20,6 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="control-group">
-		<?php echo $form->labelEx($model,'id',array('class'=>'control-label')); ?>
-                <div class="controls">
-                    <?php echo $form->textField($model,'id',array()); ?>
-                    <?php echo $form->error($model,'id'); ?>
-                </div>    
-	</div>
-
-	<div class="control-group">
 		<?php echo $form->labelEx($model,'username',array('class'=>'control-label')); ?>
                 <div class="controls">
                     <?php echo $form->textField($model,'username',array('size'=>32,'maxlength'=>32,)); ?>
